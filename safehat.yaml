@@ -1,0 +1,11 @@
+# 训练数据用于模型训练
+train: E:\workspace\yolo_data\safety-helmet\train\images\ #训练集路径
+# 验证数据用于模型训练过程中的评估和参数调试
+val: E:\workspace\yolo_data\safety-helmet\valid\images\   #验证集路径
+# 测试数据用于模型完成训练后的测试
+test: E:\workspace\yolo_data\safety-helmet\test\images\   #测试集路径
+
+# 类别
+#{0: 'Hardhat', 1: 'Mask', 2: 'NO-Hardhat', 3: 'NO-Mask', 4: 'NO-Safety Vest', 5: 'Person', 6: 'Safety Cone', 7: 'Safety Vest', 8: 'machinery', 9: 'vehicle'}
+nc: 10
+names: [Hardhat, Mask, NO-Hardhat, NO-Mask, NO-Safety Vest, Person, Safety Cone, Safety Vest, machinery, vehicle]

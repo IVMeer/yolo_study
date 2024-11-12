@@ -1,0 +1,9 @@
+# 训练集
+train: E:\workspace\yolo_data\person-data\train\images
+# 验证集
+val: E:\workspace\yolo_data\person-data\val\images
+# 测试集
+test:  E:\workspace\yolo_data\person-data\test\images
+
+nc: 1
+names: [Person]
