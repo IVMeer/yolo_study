@@ -1,9 +1,16 @@
 # 训练集
-train: E:\workspace\yolo_data\person-data\train\images
-# 验证集
-val: E:\workspace\yolo_data\person-data\val\images
-# 测试集
-test:  E:\workspace\yolo_data\person-data\test\images
+# train: E:\workspace\yolo_data\person-data\train\images
+# # 验证集
+# val: E:\workspace\yolo_data\person-data\val\images
+# # 测试集
+# test:  E:\workspace\yolo_data\person-data\test\images
+
+# 训练数据用于模型训练
+train: E:\workspace\yolo_data\safety-helmet\train\images\ #训练集路径
+# 验证数据用于模型训练过程中的评估和参数调试
+val: E:\workspace\yolo_data\safety-helmet\valid\images\   #验证集路径
+# 测试数据用于模型完成训练后的测试
+test: E:\workspace\yolo_data\safety-helmet\test\images\   #测试集路径
 
 nc: 1
 names: [Person]

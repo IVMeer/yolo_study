@@ -16,6 +16,3 @@ model.predict('.\\test3.png', save=True)
 # model.predict('.\\test3.png', save=True, classes=[0,2], line_width=30)
 # model.predict('myself1.mp4', save=True, classes=[0,2], line_width=30)
 # model.predict('myself2.mp4', save=True, classes=[0,2], line_width=30)
-
-
-
